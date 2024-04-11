@@ -1,0 +1,146 @@
+/* App.css */
+/* Reset default browser styles */
+body, h1, h2, p, label, input, select, textarea, button {
+  margin: 0;
+  padding: 0px;
+  font-family: Arial, sans-serif;
+}
+
+/* Global styles */
+body {
+  background-color: #1a1a1a; /* Dark background */
+  color: #fff; /* Light text */
+  text-align: center; /* Center align all text */
+}
+
+p {
+  margin-top: 12px;
+}
+
+h2 {
+  margin-bottom: 0px; /* Adjust margin-bottom as needed */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto; /* Center the container */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background-color: #ba69a6; /* Light muted magenta for header background */
+  color: #fff;
+  padding: 20px 0;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+main {
+  padding: 20px 0;
+  width: 100%;
+}
+
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #333; /* Dark input background */
+  color: #fff; /* Light text */
+}
+
+input[type="number"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: #ba69a6; /* Highlight color */
+}
+
+input[type="number"] {
+  width: 50px; /* Adjust width as needed */
+}
+
+label {
+  font-weight: bold;
+  display: block; /* Ensure labels are on their own line */
+  margin-bottom: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ba69a6; /* Light muted magenta for button background */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #934a75; /* Darker magenta on hover */
+}
+
+footer {
+  background-color: #ba69a6; /* Light muted magenta for footer background */
+  color: #fff;
+  padding: 8px 0;
+  position: flex;
+  bottom: 0;
+  width: 100%;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.label-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.label-row label {
+  margin-right: 10px;
+}
+
+.voice-dropdown {
+  width: 80px; /* Adjust width as needed */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 4px; /* Increase margin-bottom for spacing */
+}
+
+/* New styles for user and pet text boxes */
+.message.user {
+  background-color: #4d5c7a; /* Mild teal tone for user text boxes */
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.message.pet {
+  background-color: #9b8261; /* Light tan tone for pet text boxes */
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.pet-image {
+  margin-bottom: 16px; /* Increase margin-bottom for spacing */
+}
