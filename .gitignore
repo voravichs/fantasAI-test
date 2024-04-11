@@ -1,0 +1,12 @@
+# dependencies
+/node_modules
+/server/node_modules
+/client/node_modules
+/venv
+
+# production
+/build
+
+# misc
+.DS_Store
+.env
